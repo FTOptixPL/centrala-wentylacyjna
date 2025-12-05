@@ -1,0 +1,189 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: AirFlowInAlarm
+  Id: g=2c65c487ff9205555ae23b6b9ec19b6e
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=98c928dd51a3024fe552fabc94afc577
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1e2e2539fdeac4cc6fbb233aec96046d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AirFlowIn"
+      Children:
+      - Name: Mode
+        Id: g=37f41af91bfbcdf4118d6185a9585f42
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=a5bd5e836e61463a5e323eb3d2c58d35
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: HighLimit
+    Id: g=eabdcec6859bc747a78b745f445b4ba1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 60.0
+  - Name: HighHighLimit
+    Id: g=fae716034458da51d76fa35e4236c786
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 80.0
+  - Name: Active
+    Id: g=e8b9473e43a04a13bf833b022e78e0d3
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+  - Name: Severity
+    Id: g=bbde5cd84b052411f81a2d1574f2b303
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=2537c6d525b8ddffaa85d228060da688
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=512a2e90972a7fd007ba680e60cd7c72
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{0}"
+      - Name: ns=3;Source0
+        Id: g=0984f55336d8f76fe52f4cfa553454d3
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=1caf4451c251a9ec89ae11fbe4d3887b
+          Type: DynamicLink
+          DataType: NodePath
+- Name: AirFlowOutAlarm
+  Id: g=8c10a21633a9974e8ec92690d57583e5
+  Type: ExclusiveLevelAlarmController
+  Children:
+  - Name: InputValue
+    Id: g=b0282ed20e84f408cac0e8e51badbb36
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=c4f64039717bfa26760d4522ce13141d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/AirFlowOut"
+      Children:
+      - Name: Mode
+        Id: g=b90e819582ad46d06da7b54123166099
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Id: g=062d3cb18c77b7386cda92271d9f0b58
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=25;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=154
+    Direction: Forward
+  - Name: HighLimit
+    Id: g=907ceab85a23f0687fb28581b63d3e1c
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 60.0
+  - Name: HighHighLimit
+    Id: g=58620c8c35d2dbfc728d05d82d664654
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 80.0
+  - Name: Active
+    Id: g=8bb24e78a2f7a28913cd00ae8ed2992a
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read
+    Children:
+    - Name: ActiveHighState
+      Id: g=62b387172f9364519611764d070aa5b3
+      Type: BaseDataVariableType
+      DataType: Boolean
+      AccessLevel: Read
+  - Name: Severity
+    Id: g=1295804de2b900018b322637172c3345
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1

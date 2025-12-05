@@ -1,0 +1,12 @@
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\bin\AHU_Demo.deps.json
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\bin\AHU_Demo.dll
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\bin\AHU_Demo.pdb
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.csproj.AssemblyReference.cache
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.AssemblyInfoInputs.cache
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.AssemblyInfo.cs
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.csproj.CoreCompileInputs.cache
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.dll
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\refint\AHU_Demo.dll
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\AHU_Demo.pdb
+C:\FTOptix\AHU_Demo\ProjectFiles\NetSolution\obj\Debug\ref\AHU_Demo.dll
